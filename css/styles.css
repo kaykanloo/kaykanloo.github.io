@@ -14,10 +14,28 @@ body { padding-top: 70px;}
 .navbar-default { background-color: #f4f5fc; border-color: #f4f5fc;}
 @media (min-width: 768px) { .currentpage { display: none; } }
 /* ==========================================================================
+Sticky Footer 
+========================================================================== */
+html, body {
+             height: 100%;
+             margin: 0pt;
+        }
+        .Frame {
+             display: table;
+             height: 100%;
+             width: 100%;
+        }
+        .Row {
+             display: table-row;
+             height: 1px;
+        }
+        .Row.Expand {
+             height: auto;
+        }
+/* ==========================================================================
 Footer 
 ========================================================================== */
-html { position: relative; min-height: 100%;}
-footer { position: absolute; bottom: 0; width: 100%; background-color: #f4f5fc;}
+footer { background-color: #f4f5fc;}
 footer p { font-size: 13px; margin: 0; }
 .footer-leftcol p { text-align: left; }
 .footer-rightcol p { text-align: right; font-style: italic; margin-top: 20px; }
