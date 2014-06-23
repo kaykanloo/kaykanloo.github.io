@@ -16,36 +16,21 @@ body { padding-top: 70px;}
 /* ==========================================================================
 Sticky Footer 
 ========================================================================== */
-html, body {
-             height: 100%;
-             margin: 0pt;
-        }
-        .Frame {
-             display: table;
-             height: 100%;
-             width: 100%;
-        }
-        .Row {
-             display: table-row;
-             height: 1px;
-        }
-        .Row.Expand {
-             height: auto;
-        }
+html {position: relative; min-height: 100%; min-width:100%}
+body {margin-bottom: 95px;}
+footer {position: absolute; bottom: 0; width: 100%; height: 95px; background-color: #f4f5fc;}
 /* ==========================================================================
-Footer 
+Footer columns
 ========================================================================== */
-footer { background-color: #f4f5fc;}
 footer p { font-size: 13px; margin: 0; }
-.footer-leftcol p { text-align: left; }
-.footer-rightcol p { text-align: right; font-style: italic; margin-top: 20px; }
-.footer-midcol { margin-left: auto; margin-right: auto; margin-top: 10px;}
-.footer-midcol ul { text-align: center; padding: 0; }
-.footer-midcol li { list-style: none; display: inline-block; margin-right: 15px; }
-.footer-midcol li a { opacity: 1; }
-.footer-midcol li a:hover { opacity: 0.5; }
+.footer-leftcol { text-align: left; }
+.footer-rightcol{ text-align: right; font-style: italic;}
+.footer-midcol { margin-left: auto; margin-right: auto;}
+.footer-midcol { text-align: center; padding: 0; }
+.footer-midcol a { opacity: 1; }
+.footer-midcol a:hover { opacity: 0.5; }
 /* ==========================================================================
 Footer Queries
 ========================================================================== */
-@media screen and (max-width:1000px) { .footer-leftcol p, .footer-rightcol p { text-align: center; }
-	.footer-rightcol p {margin-top: 10px; } }
+@media screen and (max-width:991px) { #BigScreen {display:none;} .footer-leftcol {margin-top: 28px; } .footer-midcol {margin-top: 25px; } .footer-rightcol {margin-top: 20px; } }
+@media screen and (min-width:992px) { #SmallScreen {display:none;} .footer-leftcol {margin-top: 28px; } .footer-midcol {margin-top: 20px; } .footer-rightcol {margin-top: 20px; } }
