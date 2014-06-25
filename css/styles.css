@@ -2,8 +2,7 @@
 General Style
 ========================================================================== */
 html {position: relative; min-height: 100%; min-width:100%}
-html, body{ background-color: #f4f5fc;/*Fall Back*/
-}
+html, body{ background-color: #f4f5fc;/*Fall Back*/}
 a { color: #282f35; -webkit-transition: all .25s ease; -moz-transition: all .25s ease; -ms-transition: all .25s ease; -o-transition: all .25s ease; transition: all .25s ease; }
 a:hover { color: #64c29e; text-decoration: none; }
 p {font-size: 14px; color: #282f35; font-weight: 300; word-spacing: 2px; line-height: 1.8em; margin-top: 25px; }
@@ -46,5 +45,5 @@ footer p { font-size: 13px; color: #848789; margin: 0; }
 Queries
 ========================================================================== */
 @media (min-width: 768px) { .navbar-brand { display: none; } }
-@media screen and (max-width:991px) { #BigScreen {display:none;}  .footer-midcol {margin-top: 25px; } .MainContent{margin-right:10%; margin-left:10%;}}
-@media screen and (min-width:992px) { #SmallScreen {display:none;} .footer-midcol {margin-top: 20px; } .MainContent{margin-right:20%; margin-left:20%;}}
+@media screen and (max-width:991px) { .BigScreen {display:none;}  .footer-midcol {margin-top: 25px; } .MainContent{margin-right:10%; margin-left:10%;}}
+@media screen and (min-width:992px) { .SmallScreen {display:none;} .footer-midcol {margin-top: 20px; } .MainContent{margin-right:20%; margin-left:20%;}}
