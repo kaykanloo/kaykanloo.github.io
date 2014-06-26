@@ -41,6 +41,9 @@ footer p { font-size: 13px; color: #848789; margin: 0; }
 /* ==========================================================================
 Queries
 ========================================================================== */
+/* Non-Mobile View */
 @media (min-width: 768px) { .navbar-brand { display: none; } }
+/* Non-Wide View */
 @media screen and (max-width:991px) { .BigScreen {display:none;}  .footer-midcol {margin-top: 25px; } .MainContent{margin-right:10%; margin-left:10%;}}
+/* Wide View */
 @media screen and (min-width:992px) { .SmallScreen {display:none;} .footer-midcol {margin-top: 20px; } .MainContent{margin-right:20%; margin-left:20%;}}
