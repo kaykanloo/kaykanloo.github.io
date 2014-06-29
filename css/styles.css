@@ -42,6 +42,11 @@ Knowledge Base
 .list-group-item{padding-top:5px;background-color: #f4f5fc;border-color:#f4f5fc;}
 .list-group-item > a{text-decoration: none;line-height: 1.8em;padding:0px 3px 5px 3px;border-bottom: 2px solid #FFC773;}
 /* ==========================================================================
+Knowledge Base Content
+========================================================================== */
+.breadcrumb{background-color: #DFE0E6;color:#777;}
+.breadcrumb > li + li:before{color:#777;}
+/* ==========================================================================
 Sticky Footer 
 ========================================================================== */
 body {margin-bottom: 95px;}
