@@ -47,11 +47,79 @@
    
 	<div class="MainContent">
 		<div class="ContentHeader">
-			<h1>Knowledge Base</h1>
+			<h2>Knowledge Base Contents</h2>
 		</div>
-		<div class="ContentText">
-			<p>I'll upload the knowledge base as soon as possible.</p> 
-		</div>
+		<div class="panel-group" id="accordion">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+							Group I
+						</a>
+					</h4>
+				</div>
+				<div id="collapseOne" class="panel-collapse collapse">
+					<div class="panel-body">
+						Description.
+						<ul class="list-group">
+							<li class="list-group-item"><a href="article1">Article 1</a></li>
+							<li class="list-group-item"><a href="article2">Article 2</a></li>
+							<li class="list-group-item"><a href="article3">Article 3</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+							Group II
+						</a>
+					</h4>
+				</div>
+				<div id="collapseTwo" class="panel-collapse collapse">
+					<div class="panel-body">
+						<div class="panel-group">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#collapseTwo" href="#collapseTwoOne">
+											SubGroup I
+										</a>
+									</h4>
+								</div>
+								<div id="collapseTwoOne" class="panel-collapse collapse">
+									<div class="panel-body">
+										Description.
+										<ul class="list-group">
+											<li class="list-group-item"><a href="article4">Article 4</a></li>
+											<li class="list-group-item"><a href="article5">Article 5 has a very long title which is descriptive enough </a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#collapseTwo" href="#collapseTwoTwo">
+											SubGroup II
+										</a>
+									</h4>
+								</div>
+								<div id="collapseTwoTwo" class="panel-collapse collapse">
+									<div class="panel-body">
+										Description.
+										<ul class="list-group">
+											<li class="list-group-item"><a href="article6">Article 6</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- /accordion -->
 	</div>
    
    <footer>
