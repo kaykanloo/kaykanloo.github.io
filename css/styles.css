@@ -46,8 +46,9 @@ background-color: #EBECF2; box-shadow:2px 2px 3px gray; border-radius:10px;}
 Main Content Fa
 ========================================================================== */
 .ContentLangBarFa{text-align:left;}
-.ContentHeaderFa{text-align:center;direction:rtl;}
-.ContentTextFa{text-align:justify;direction:rtl; padding-right:5px;border-right: 2px solid #FF9900;}
+.ContentHeaderFa h1{font-size: 30px;text-align:center;direction:rtl;}
+.ContentTextFa{padding-right:5px;border-right: 2px solid #FF9900;}
+.ContentTextFa p{font-size: 16px;text-align:justify;direction:rtl;}
 /* ==========================================================================
 Knowledge Base 
 ========================================================================== */
