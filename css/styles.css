@@ -1,8 +1,23 @@
 /* ==========================================================================
+Fonts
+========================================================================== */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/xjAJXh38I15wypJXxuGMBobN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}
+/* ==========================================================================
 General Style
 ========================================================================== */
 html {position: relative; min-height: 100%; min-width:100%}
-html, body{ background-color: #f4f5fc;/*Fall Back*/}
+html, body{font-family: 'Open Sans', sans-serif; background-color: #f4f5fc;/*Fall Back*/}
 a { color: #282f35; -webkit-transition: all .25s ease; -moz-transition: all .25s ease; -ms-transition: all .25s ease; -o-transition: all .25s ease; transition: all .25s ease; }
 a:hover { color: #64c29e; text-decoration: none; }
 p {font-size: 14px; color: #282f35; font-weight: 300; word-spacing: 2px; line-height: 1.8em;}
@@ -25,7 +40,7 @@ Main Content
 background-color: #EBECF2; box-shadow:2px 2px 3px gray; border-radius:10px;}
 .ContentLangBar{text-align:right;}
 .LangButton{padding:1px 5px 1px 5px;border-radius:5px; background-color: #848789; border-color: #848789; color: white;}
-.ContentHeader{text-align:center;}
+.ContentHeader{font-style: italic; text-align:center;}
 .ContentText{text-align:justify;padding-left:5px;border-left: 2px solid #FF9900;}
 /* ==========================================================================
 Main Content Fa
