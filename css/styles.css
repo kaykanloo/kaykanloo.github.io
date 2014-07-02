@@ -13,6 +13,12 @@ Fonts
   font-weight: 400;
   src: local('Open Sans Italic'), local('OpenSans-Italic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/xjAJXh38I15wypJXxuGMBobN6UDyHWBl620a-IRfuBk.woff) format('woff');
 }
+@font-face {
+font-family: 'BNazanin';
+src: url('http://fontonline.ir/fonts/BNazanin.eot?#') format('eot'),
+url('http://fontonline.ir/fonts/BNazanin.ttf') format('truetype'),
+url('http://fontonline.ir/fonts/BNazanin.woff') format('woff');
+}
 /* ==========================================================================
 General Style
 ========================================================================== */
@@ -46,9 +52,9 @@ background-color: #EBECF2; box-shadow:2px 2px 3px gray; border-radius:10px;}
 Main Content Fa
 ========================================================================== */
 .ContentLangBarFa{text-align:left;}
-.ContentHeaderFa h1{font-size: 30px;text-align:center;direction:rtl;}
+.ContentHeaderFa h1{font-family: BNazanin,'BNazanin',tahoma; font-size: 30px;text-align:center;direction:rtl;}
 .ContentTextFa{padding-right:5px;border-right: 2px solid #FF9900;}
-.ContentTextFa p{font-size: 16px;text-align:justify;direction:rtl;}
+.ContentTextFa p{font-family: BNazanin,'BNazanin',tahoma; font-size: 18px;text-align:justify;direction:rtl;}
 /* ==========================================================================
 Knowledge Base 
 ========================================================================== */
