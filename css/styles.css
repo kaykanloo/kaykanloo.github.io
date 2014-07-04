@@ -59,7 +59,7 @@ Knowledge Base
 ========================================================================== */
 .panel-group{text-align:center;margin-bottom:10px;}
 .panel-default > .panel-heading,.panel-default > .panel-title{background-color: #DFE0E6;border-color:#DFE0E6;}
-.panel-body{background-color: #EBECF2;}
+.panel-body{background-color: #EBECF2;padding-bottom:0px;}
 .list-group-item{padding-top:5px;background-color: #f4f5fc;border-color:#f4f5fc;}
 .list-group-item > a{text-decoration: none;line-height: 1.8em;padding:0px 3px 5px 3px;border-bottom: 2px solid #FFC773;}
 /* ==========================================================================
