@@ -31,7 +31,15 @@ Fixed Header
 Main Content
 ========================================================================== */
 .MainContent{ margin-top:70px; margin-bottom: 20px; padding:10px 15px 10px 15px;
-background-color: #EBECF2; box-shadow:2px 2px 3px gray; border-radius:10px;}
+border: 2px solid #EAEBF2; border-radius:10px; box-shadow:2px 2px 3px gray;
+background: rgb(235,236,242); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(249,250,255,1) 0%, rgba(234,235,242,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(249,250,255,1)), color-stop(100%,rgba(234,235,242,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(249,250,255,1) 0%,rgba(234,235,242,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(249,250,255,1) 0%,rgba(234,235,242,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(249,250,255,1) 0%,rgba(234,235,242,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(249,250,255,1) 0%,rgba(234,235,242,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9faff', endColorstr='#eaebf2',GradientType=0 ); /* IE6-9 */}
 .ContentLangBar{text-align:right;}
 .LangButton{padding:1px 5px 1px 5px;border-radius:5px; background-color: #848789; border-color: #848789; color: white;}
 .ContentHeader{font-style: italic; text-align:center;}
