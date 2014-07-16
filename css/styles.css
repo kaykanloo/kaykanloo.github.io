@@ -86,9 +86,12 @@ footer p { font-size: 13px; color: #848789; margin: 0; }
 /* ==========================================================================
 Queries
 ========================================================================== */
+/* Main content width */
+@media (max-width:650px) {.MainContent{margin-right:5%; margin-left:5%;}}
+@media (min-width:651px) and (max-width:991px) {.MainContent{margin-right:10%; margin-left:10%;}}
+@media (min-width:992px) {.MainContent{margin-right:20%; margin-left:20%;}}
 /* Non-Mobile View */
 @media (min-width: 768px) { .navbar-brand { display: none; } }
-/* Non-Wide View */
-@media screen and (max-width:991px) { .BigScreen {display:none;}  .footer-midcol {margin-top: 25px; } .MainContent{margin-right:10%; margin-left:10%;}}
-/* Wide View */
-@media screen and (min-width:992px) { .SmallScreen {display:none;} .footer-midcol {margin-top: 20px; } .MainContent{margin-right:20%; margin-left:20%;}}
+/* Footer version */
+@media screen and (max-width:991px) { .BigScreen {display:none;}  .footer-midcol {margin-top: 25px; } }
+@media screen and (min-width:992px) { .SmallScreen {display:none;} .footer-midcol {margin-top: 20px; } }
