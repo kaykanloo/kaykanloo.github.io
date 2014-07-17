@@ -1,351 +1,104 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="M. Kaykanloo's Personal Website">
-    <meta name="author" content="M. Kaykanloo">
-    <link rel="shortcut icon" href="../img/favicon.ico">
-    <title>M. Kaykanloo | Knowledge Base</title>
-	<!-- Bootstrap -->
-	<link href="../css/bootstrap.min.css" rel="stylesheet">
-	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	<!--[if lt IE 9]>
-	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-	<![endif]-->
-	<link href="../css/styles.css?v=1.2" rel="stylesheet">	
+<link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" href="grid.css">
+<script src="jquery.min.js"></script>
+<script src="bootstrap.min.js"></script>
 </head>
 <body>
-	<header>
-	<!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand">Knowledge Base</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="../">About Me</a></li>
-			<li><a href="../resume/">My Resume</a></li>
-			<li><a href="../projects/" >My Projects</a></li>
-			<li class="active"><a href="../knowledge/">Knowledge Base</a></li>
-			<li><a href="../contact/">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
-   </header>
-   
-	<div class="MainContent">
-		<div class="ContentHeader">
-			<h2>Knowledge Base Contents</h2>
-		</div>
-		<div class="panel-group" id="accordion">
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<h4 class="panel-title">
-						<a data-toggle="collapse" data-parent="#accordion" href="#ideas">
-							My ideas
-						</a>
-					</h4>
-				</div>
-				<div id="ideas" class="panel-collapse collapse">
-					<div class="panel-body">
-						<p>Nothing yet!</p>
-						<!--ul class="list-group">
-							<li class="list-group-item"><a href="samplecontent">Sample content</a></li>
-						</ul-->
-					</div>
-				</div>
+
+<div class="KBContent">
+	<div id="ideas" class="collapse">
+	<ul class="list-group">
+		<li class="list-group-item"><a href="samplecontent">Sample content</a></li>
+		<li class="list-group-item"><a href="samplecontent">Sample content</a></li>
+		<li class="list-group-item"><a href="samplecontent">Sample content</a></li>
+	</ul>
+	</div>
+	
+	<div class="KBIdeas">
+		<a data-toggle="collapse" data-parent="#accordion" href="#ideas">
+			My ideas
+		</a>
+	</div>
+	<div class="KBSoftEng">
+		<a data-toggle="collapse" data-parent="#accordion" href="#softeng">
+			Software creation and management
+		</a>
+	</div>
+	<div class="KBWrapper">
+		<div class="KBEss">
+			<div class="KBEssCell">
+				<a data-toggle="collapse" data-parent="#accordion" href="#programming">
+					Programming
+				</a>
 			</div>
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<h4 class="panel-title">
-						<a data-toggle="collapse" data-parent="#accordion" href="#softeng">
-							Software creation and management
-						</a>
-					</h4>
-				</div>
-				<div id="softeng" class="panel-collapse collapse">
-					<div class="panel-body">
-						<p>Nothing yet!</p>
-						<!--ul class="list-group">
-							<li class="list-group-item"><a href="samplecontent">Sample content</a></li>
-						</ul-->
-					</div>
-				</div>
+			<div class="KBEssCell">
+				<a data-toggle="collapse" data-parent="#accordion" href="#algorithms">
+					Algorithms and theoretical computer science
+				</a>
 			</div>
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<h4 class="panel-title">
-						<a data-toggle="collapse" data-parent="#accordion" href="#programming">
-							Programming
-						</a>
-					</h4>
-				</div>
-				<div id="programming" class="panel-collapse collapse">
-					<div class="panel-body">
-						<p>Nothing yet!</p>
-						<!--ul class="list-group">
-							<li class="list-group-item"><a href="samplecontent">Sample content</a></li>
-						</ul-->
-					</div>
-				</div>
+			<div class="KBEssCell">
+				<a data-toggle="collapse" data-parent="#accordion" href="#ai">
+					Artificial intelligence
+				</a>
 			</div>
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<h4 class="panel-title">
-						<a data-toggle="collapse" data-parent="#accordion" href="#algorithms">
-							Algorithms and theoretical computer science
-						</a>
-					</h4>
-				</div>
-				<div id="algorithms" class="panel-collapse collapse">
-					<div class="panel-body">
-						<p>Nothing yet!</p>
-						<!--ul class="list-group">
-							<li class="list-group-item"><a href="samplecontent">Sample content</a></li>
-						</ul-->
-					</div>
-				</div>
-			</div>
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<h4 class="panel-title">
-						<a data-toggle="collapse" data-parent="#accordion" href="#ai">
-							Artificial intelligence
-						</a>
-					</h4>
-				</div>
-				<div id="ai" class="panel-collapse collapse">
-					<div class="panel-body">
-						<p>Nothing yet!</p>
-						<!--ul class="list-group">
-							<li class="list-group-item"><a href="samplecontent">Sample content</a></li>
-						</ul-->
-					</div>
-				</div>
-			</div>
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<h4 class="panel-title">
-						<a data-toggle="collapse" data-parent="#accordion" href="#math">
-							Mathematical foundation
-						</a>
-					</h4>
-				</div>
-				<div id="math" class="panel-collapse collapse">
-					<div class="panel-body">
-						<p>Nothing yet!</p>
-						<!--ul class="list-group">
-							<li class="list-group-item"><a href="samplecontent">Sample content</a></li>
-						</ul-->
-					</div>
-				</div>
-			</div>
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<h4 class="panel-title">
-						<a data-toggle="collapse" data-parent="#accordion" href="#platforms">
-							Software platforms and libraries
-						</a>
-					</h4>
-				</div>
-				<div id="platforms" class="panel-collapse collapse">
-					<div class="panel-body">
-						<p>Nothing yet!</p>
-						<!--ul class="list-group">
-							<li class="list-group-item"><a href="samplecontent">Sample content</a></li>
-						</ul-->
-					</div>
-				</div>
-			</div>
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<h4 class="panel-title">
-						<a data-toggle="collapse" data-parent="#accordion" href="#information">
-							Information management
-						</a>
-					</h4>
-				</div>
-				<div id="information" class="panel-collapse collapse">
-					<div class="panel-body">
-						<p>Nothing yet!</p>
-						<!--ul class="list-group">
-							<li class="list-group-item"><a href="samplecontent">Sample content</a></li>
-						</ul-->
-					</div>
-				</div>
-			</div>
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<h4 class="panel-title">
-						<a data-toggle="collapse" data-parent="#accordion" href="#networks">
-							Communication and networks
-						</a>
-					</h4>
-				</div>
-				<div id="networks" class="panel-collapse collapse">
-					<div class="panel-body">
-						<p>Nothing yet!</p>
-						<!--ul class="list-group">
-							<li class="list-group-item"><a href="samplecontent">Sample content</a></li>
-						</ul-->
-					</div>
-				</div>
-			</div>
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<h4 class="panel-title">
-						<a data-toggle="collapse" data-parent="#accordion" href="#security">
-							Security and privacy
-						</a>
-					</h4>
-				</div>
-				<div id="security" class="panel-collapse collapse">
-					<div class="panel-body">
-						<p>Nothing yet!</p>
-						<!--ul class="list-group">
-							<li class="list-group-item"><a href="samplecontent">Sample content</a></li>
-						</ul-->
-					</div>
-				</div>
-			</div>
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<h4 class="panel-title">
-						<a data-toggle="collapse" data-parent="#accordion" href="#graphic">
-							Computer graphics and visualization
-						</a>
-					</h4>
-				</div>
-				<div id="graphic" class="panel-collapse collapse">
-					<div class="panel-body">
-						<p>Nothing yet!</p>
-						<!--ul class="list-group">
-							<li class="list-group-item"><a href="samplecontent">Sample content</a></li>
-						</ul-->
-					</div>
-				</div>
-			</div>
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<h4 class="panel-title">
-						<a data-toggle="collapse" data-parent="#accordion" href="#hci">
-							Human-computer interaction
-						</a>
-					</h4>
-				</div>
-				<div id="hci" class="panel-collapse collapse">
-					<div class="panel-body">
-						<p>Nothing yet!</p>
-						<!--ul class="list-group">
-							<li class="list-group-item"><a href="samplecontent">Sample content</a></li>
-						</ul-->
-					</div>
-				</div>
-			</div>
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<h4 class="panel-title">
-						<a data-toggle="collapse" data-parent="#accordion" href="#cm">
-							Computing methodologies
-						</a>
-					</h4>
-				</div>
-				<div id="cm" class="panel-collapse collapse">
-					<div class="panel-body">
-						<p>Nothing yet!</p>
-						<!--ul class="list-group">
-							<li class="list-group-item"><a href="samplecontent">Sample content</a></li>
-						</ul-->
-					</div>
-				</div>
-			</div>
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<h4 class="panel-title">
-						<a data-toggle="collapse" data-parent="#accordion" href="#hardware">
-							Computer system organization and hardware
-						</a>
-					</h4>
-				</div>
-				<div id="hardware" class="panel-collapse collapse">
-					<div class="panel-body">
-						<p>Nothing yet!</p>
-						<!--ul class="list-group">
-							<li class="list-group-item"><a href="samplecontent">Sample content</a></li>
-						</ul-->
-					</div>
-				</div>
-			</div>
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<h4 class="panel-title">
-						<a data-toggle="collapse" data-parent="#accordion" href="#beyond">
-							Beyond computer science
-						</a>
-					</h4>
-				</div>
-				<div id="beyond" class="panel-collapse collapse">
-					<div class="panel-body">
-						<p>Nothing yet!</p>
-						<!--ul class="list-group">
-							<li class="list-group-item"><a href="samplecontent">Sample content</a></li>
-						</ul-->
-					</div>
-				</div>
-			</div>
-		</div> <!-- /accordion -->
-	</div> <!-- /maincontent -->
-   
-   <footer>
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-3 footer-leftcol">
-					<div class="BigScreen">
-						<p>Hosted on <a href="https://pages.github.com/">GitHub Pages</a></p>
-						<p>&#169;2014 <a href="http://www.kaykanloo.com">Kaykanloo</a></p>
-					</div>
-					<div class="SmallScreen">
-						<p>&#169;2014 <br> <a href="http://www.kaykanloo.com">Kaykanloo</a></p>
-					</div>
-				
-				</div>
-				<div class="col-xs-6 footer-midcol">
-					<div class="BigScreen">
-						<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a></p>
-						<p>Content is available under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless otherwise noted.</p>
-						<div class="clearfix"></div>
-					</div>
-					<div class="SmallScreen">
-						<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a></p>
-						<p><a rel="license" href="../terms/">Terms of use</a></p>
-					</div>
-				</div>
-				<div class="col-xs-3 footer-rightcol">
-					<div class="BigScreen">
-						<p>Designed by </p>
-						<p><a href="http://www.kaykanloo.com/">M. Kaykanloo</a></p>
-					</div>
-					<div class="SmallScreen">
-						<p>DesignedBy</p>
-						<p><a href="http://www.kaykanloo.com/">M.Kaykanloo</a></p>
-					</div>
-				</div>
+			<div class="KBEssCell">
+				<a data-toggle="collapse" data-parent="#accordion" href="#math">
+					Mathematical foundation
+				</a>
 			</div>
 		</div>
-	</footer>
-	<script src="../js/jquery.min.js"></script>
-	<script src="../js/bootstrap.min.js"></script>
-	<script src="../js/googleanalytics.js"></script>
+		<div class="KBOtherTop">
+			<div class="KBOtherTopCell">
+				<a data-toggle="collapse" data-parent="#accordion" href="#platforms">
+					Software platforms and libraries
+				</a>
+			</div>
+			<div class="KBOtherTopCell">
+				<a data-toggle="collapse" data-parent="#accordion" href="#information">
+					Information management
+				</a>
+			</div>
+			<div class="KBOtherTopCell">
+				<a data-toggle="collapse" data-parent="#accordion" href="#networks">
+					Communication and networks
+				</a>
+			</div>
+			<div class="KBOtherTopCell">
+				<a data-toggle="collapse" data-parent="#accordion" href="#security">
+					Security and privacy
+				</a>
+			</div>
+		</div>
+		<div class="KBOtherBott">
+			<div class="KBOtherBottCell">
+				<a data-toggle="collapse" data-parent="#accordion" href="#graphic">
+					Computer graphics and visualization
+				</a>
+			</div>
+			<div class="KBOtherBottCell">
+				<a data-toggle="collapse" data-parent="#accordion" href="#hci">
+					Human-computer interaction
+				</a>
+			</div>
+			<div class="KBOtherBottCell">
+				<a data-toggle="collapse" data-parent="#accordion" href="#cm">
+					Computing methodologies
+				</a>
+			</div>
+			<div class="KBOtherBottCell">
+				<a data-toggle="collapse" data-parent="#accordion" href="#hardware">
+					Computer system organization and hardware
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="KBBeyond">
+			<a data-toggle="collapse" data-parent="#accordion" href="#beyond">
+				Beyond computer science
+			</a>
+	</div>
+</div>
 </body>
+</html>

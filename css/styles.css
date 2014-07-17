@@ -18,6 +18,7 @@ a:focus{outline:0;text-decoration: none;}
 p {font-size: 14px; color: #282f35; font-weight: 300; word-spacing: 2px; line-height: 1.8em;}
 h1{font-size: 28px;margin-top:0px;margin-bottom:10px;}
 h2{font-size: 24px;margin-top:0px;margin-bottom:10px;}
+h3{font-size: 20px;margin-top:0px;margin-bottom:10px;}
 /* ==========================================================================
 Fixed Header
 ========================================================================== */
@@ -58,13 +59,15 @@ Main Content Fa
 /* ==========================================================================
 Knowledge Base 
 ========================================================================== */
-.panel-group{text-align:center;margin-bottom:10px;}
-.panel-default > .panel-heading,.panel-default > .panel-title{background-color: #DFE0E6;border-color:#DFE0E6;}
-.panel-body{background-color: #EBECF2;padding-bottom:0px;}
-.list-group-item{padding-top:5px;background-color: #f4f5fc;border-color:#f4f5fc;}
-.list-group-item > a{text-decoration: none;line-height: 1.8em;padding:0px 3px 5px 3px;border-bottom: 2px solid #FFC773;}
+.KBIdeas,.KBSoftEng , .KBEssCell,.KBOtherTopCell, .KBOtherBottCell, .KBBeyond 
+{border: 2px solid gray;border-radius:7px;text-align:center;vertical-align:middle;line-height: 1.8em;}
+.KBContent,.KBIdeas, .KBSoftEng, .KBWrapper, .KBEss, .KBOtherTop, .KBOtherBott, .KBBeyond,
+.KBEssCell, .KBOtherTopCell, .KBOtherBottCell{margin:2px 0px;}
+.KBContent  .list-group{text-align:center;margin-bottom:0px;}
+.KBContent  .list-group-item{padding-top:5px;background-color: #f4f5fc;border-color:#f4f5fc;}
+.KBContent  .list-group-item > a{text-decoration: none;line-height: 1.8em;padding:0px 3px 5px 3px;border-bottom: 2px solid #FFC773;}
 /* ==========================================================================
-Knowledge Base Content
+Knowledge Base Pages
 ========================================================================== */
 .breadcrumb{background-color: #DFE0E6;color:#777;}
 .breadcrumb > li + li:before{color:#777;}
@@ -96,3 +99,8 @@ Queries
 /* Footer version */
 @media screen and (max-width:991px) { .BigScreen {display:none;}  .footer-midcol {margin-top: 25px; } }
 @media screen and (min-width:992px) { .SmallScreen {display:none;} .footer-midcol {margin-top: 20px; } }
+/* Knowledge Base Contents */
+@media screen and (min-width:769px){
+.KBEssCell, .KBOtherTopCell, .KBOtherBottCell{display:table-cell;}
+.KBEss, .KBOtherTop, .KBOtherBott{display:table-row;width:100%;}
+.KBWrapper{display:table;width:100%}}
