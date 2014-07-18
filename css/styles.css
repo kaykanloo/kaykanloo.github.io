@@ -64,9 +64,14 @@ Knowledge Base
 .KBContent,.KBIdeas, .KBSoftEng, .KBWrapper, .KBEss, .KBOtherTop, .KBOtherBott, .KBBeyond,
 .KBEssCell, .KBOtherTopCell, .KBOtherBottCell{margin:2px 0px;}
 .CompSci{border: 2px dashed #888;border-radius:7px;padding:0px 2px;}
+.KBContent .panel{background-color:transparent;margin-bottom:0px;border:0px;box-shadow:none;}
 .KBContent  .list-group{text-align:center;margin-bottom:0px;}
-.KBContent  .list-group-item{padding-top:5px;background-color: #f4f5fc;border-color:#f4f5fc;}
+.KBContent  .list-group-item{padding-top:5px;background-color: #f4f5fc;background-color: transparent;border-color:#f4f5fc;}
 .KBContent  .list-group-item > a{text-decoration: none;line-height: 1.8em;padding:0px 3px 5px 3px;border-bottom: 2px solid #FFC773;}
+.KBContent  .list-group-item:first-child{border: 2px solid gray;border-radius:7px;margin-bottom:2px;}
+.KBContent  .list-group-item:last-child{border: 2px solid gray;border-radius:7px;margin-bottom:2px;padding:0px;}
+.KBContent  .list-group-item:last-child > a{border-bottom: 0px;opacity:0.5;}
+.KBContent  .list-group-item:last-child > a:hover{opacity:1.0;}
 /* ==========================================================================
 Knowledge Base Pages
 ========================================================================== */
