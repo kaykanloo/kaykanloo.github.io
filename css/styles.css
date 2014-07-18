@@ -51,9 +51,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9faff', end
 Main Content Fa
 ========================================================================== */
 .ContentLangBarFa{text-align:left;}
-.ContentHeaderFa h1{font-family: BNazanin,'BNazanin'; font-size: 30px;text-align:center;direction:rtl;padding-bottom:10px}
+.ContentHeaderFa h1{font-family: BNazanin,IRNazanin,'BNazanin'; font-size: 30px;text-align:center;direction:rtl;padding-bottom:10px}
 .ContentTextFa{padding-right:5px;border-right: 2px solid #FF9900;}
-.ContentTextFa p{font-family: BNazanin,'BNazanin'; font-size: 18px;text-align:justify;direction:rtl;}
+.ContentTextFa p{font-family: BNazanin,IRNazanin,'BNazanin'; font-size: 18px;text-align:justify;direction:rtl;}
 .ContentTextCenterFa{padding-left:5px;border-left: 2px solid #FF9900;padding-right:5px;border-right: 2px solid #FF9900;}
 .ContentTextCenterFa p{font-family: BNazanin,'BNazanin'; font-size: 18px;text-align:center;direction:rtl;}
 /* ==========================================================================
