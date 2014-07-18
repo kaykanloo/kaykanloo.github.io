@@ -60,7 +60,7 @@ Main Content Fa
 Knowledge Base 
 ========================================================================== */
 .KBIdeas,.KBSoftEng , .KBEssCell,.KBOtherTopCell, .KBOtherBottCell, .KBBeyond 
-{border: 2px solid gray;border-radius:7px;text-align:center;vertical-align:middle;line-height: 1.8em;}
+{border: 2px solid gray;border-radius:7px;text-align:center;vertical-align:middle;line-height: 1.8em;padding-top:4px;padding-bottom:4px;}
 .KBContent,.KBIdeas, .KBSoftEng, .KBWrapper, .KBEss, .KBOtherTop, .KBOtherBott, .KBBeyond,
 .KBEssCell, .KBOtherTopCell, .KBOtherBottCell{margin:2px 0px;}
 .CompSci{border: 2px dashed #888;border-radius:7px;padding:0px 2px;}
