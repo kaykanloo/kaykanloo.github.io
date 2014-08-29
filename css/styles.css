@@ -58,6 +58,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9faff', end
 Resume Page
 ========================================================================== */
 #ResumeKeywords h3, #ResumeName  h4, #ResumeAddress h4 { color:gray;}
+.ContentHeaderFa h2, .ContentHeaderFa h3, .ContentHeaderFa h4 {font-family: BNazanin,IRNazanin,'BNazanin';direction:rtl;}
+#ResumeHeaderTitleFa h2 {text-align:center;font-size:28px;}
+#ResumeKeywordsFa h3 {text-align:center; font-size:24px;color:gray;}
+#ResumeAddressFa h4{ color:gray;}
+#ResumeNameFa h4{font-size:20px;color:gray;}
+#ResumeContentFa ul, #ResumeContentFa li{direction:rtl;}
+.ResumeTextFa{font-size:20px;font-family: BNazanin,IRNazanin,'BNazanin';}
 /* ==========================================================================
 Knowledge Base 
 ========================================================================== */
@@ -120,5 +127,5 @@ Queries
 .KBEss, .KBOtherTop, .KBOtherBott{display:table-row;width:100%;}
 .KBWrapper{display:table;width:100%}}
 /* Resume Header */
-@media screen and (max-width:767px) { #ResumeName  h4{text-align:center;} #ResumeAddress h4{text-align:center;} }
-@media screen and (min-width:768px) { #ResumeName  h4{text-align:left;} #ResumeAddress h4{text-align:right;} }
+@media screen and (max-width:767px) { #ResumeName  h4, #ResumeAddress h4, #ResumeAddressFa h4, #ResumeNameFa h4{text-align:center;} }
+@media screen and (min-width:768px) { #ResumeName  h4, #ResumeAddressFa h4{text-align:left;} #ResumeAddress h4, #ResumeNameFa h4{text-align:right;}}
