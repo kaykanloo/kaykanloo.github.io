@@ -16,7 +16,8 @@
 	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 	<![endif]-->
-	<link href="../../css/styles.css?v=1.2" rel="stylesheet">	
+	<link href="../../css/styles.css?v=1.2" rel="stylesheet">
+	<script type="text/javascript" src="../../js/pagedown.js"></script>	
 </head>
 <body>
 	<header>
@@ -48,14 +49,60 @@
 	<div class="MainContent">
 		<ol class="breadcrumb">
 			<li><a href="../">Knowledge Base</a></li>
-			<li>Group II</li>
+			<li>Sample Contents Group</li>
 		</ol>
 		<div class="ContentHeader">
 			<h1>Sample Content</h1>
 		</div>
-		<div class="ContentText">
-			<p>This is a sample content of knowledge base.</p> 
+		<div class="ContentText" id="MarkDownDes">
 		</div>
+<code id="MarkDownSrc">
+Setext-Style H1 header
+====
+Setext-Style H2 header
+----
+# Atx-Style H1 header
+## Atx-Style H2 header
+### Atx-Style H3 header
+#### Atx-Style H4 header
+##### Atx-Style H5 header
+###### Atx-Style H6 header
+
+A simple text ends with two spaces.  
+
+1. There is also numbered lists
+1. With auto numbering
+
+And unordered lists:    
+
+* Unordered list, item 1
++ Unordered list, item 2
+* Unordered list written in
+multiple lines
+* Unordered list can consists of
+	multiple lines.
+	
+	Or even paragraphs! 
+* Via one tab.   
+
+Code  
+
+	Code should started with tab.
+	in multiple lines.
+		Or even indents.
+Will be end with a line without leading tab.
+
+There is also `inline code` for use.
+
+Inline links [like this](http://www.example.com "optional title") can be written.
+There is also reference-like [links][id]. In addition to [this][]  
+
+[id]: http://www.example.com "optional title"
+[this]: http://www.example.com "optional title"  
+
+_Italic_ and __Bold__ texts.
+
+</code>
 	</div>
 	
    <footer>
@@ -92,6 +139,10 @@
 			</div>
 		</div>
 	</footer>
+	<script type="text/javascript">
+		var converter = new Markdown.Converter();
+		document.getElementById("MarkDownDes").innerHTML = converter.makeHtml(document.getElementById("MarkDownSrc").innerHTML);
+	</script>
 	<script src="../../js/jquery.min.js"></script>
 	<script src="../../js/bootstrap.min.js"></script>
 	<script src="../../js/googleanalytics.js"></script>
