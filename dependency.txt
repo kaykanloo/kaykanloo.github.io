@@ -3,3 +3,4 @@ This website depends on:
 * JQuery v1.11.1
 * PageDown As of Sep. 1 2014
 * HighLight.js v8.2
+* MathJax CDN link
