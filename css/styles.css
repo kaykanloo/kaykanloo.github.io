@@ -89,6 +89,7 @@ Knowledge Base Pages
 .breadcrumb{background-color: #DFE0E6;color:#777;}
 .breadcrumb > li + li:before{color:#777;}
 #MarkDownSrc{Display:none;}
+.hljs{background:rgb(247,247,247);}
 /* ==========================================================================
 Contact Page
 ========================================================================== */
