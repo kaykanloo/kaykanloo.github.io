@@ -89,6 +89,11 @@ Knowledge Base Pages
 .breadcrumb{background-color: #DFE0E6;color:#777;}
 .breadcrumb > li + li:before{color:#777;}
 #MarkDownSrc{Display:none;}
+#MarkDownDes .TOC {margin-bottom: 10px;}
+#MarkDownDes .TOC a { border: 0px;}
+#MarkDownDes .TOCH1,#MarkDownDes .TOCH2,#MarkDownDes .TOCH3 { display:block;margin:3px 0px;}
+#MarkDownDes .TOCH2{ margin-left: 10px;}
+#MarkDownDes .TOCH3{ margin-left: 20px;}
 #MarkDownDes h1,h2,h3, h4 , h5 , h6{margin-bottom:3px;}
 #MarkDownDes h1{ font-size:24px;}
 #MarkDownDes h1:after { content: ""; display: block;}
