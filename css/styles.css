@@ -2,11 +2,11 @@
 Fonts
 ========================================================================== */
 @font-face { font-family: 'Open Sans'; font-style: normal; font-weight: 400;
-  src: local('Open Sans'), local('OpenSans'), url(http://www.kaykanloo.com/fonts/opensans.woff) format('woff');}
+  src: local('Open Sans'), local('OpenSans'), url(https://www.kaykanloo.com/fonts/opensans.woff) format('woff');}
 @font-face { font-family: 'Open Sans'; font-style: italic; font-weight: 400;
-  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(http://www.kaykanloo.com/fonts/opensansitalic.woff) format('woff');}
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(https://www.kaykanloo.com/fonts/opensansitalic.woff) format('woff');}
 @font-face {font-family: 'BNazanin';
-src: url('http://www.kaykanloo.com/fonts/BNazanin.woff') format('woff');}
+src: url('https://www.kaykanloo.com/fonts/BNazanin.woff') format('woff');}
 /* ==========================================================================
 General Style
 ========================================================================== */
